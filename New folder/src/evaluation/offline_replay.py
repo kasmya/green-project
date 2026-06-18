@@ -12,7 +12,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
 import json
 import numpy as np
 import pandas as pd
-from typing import List, Dict, Tuple
+from typing import List, Dict, Tuple, Callable
 from collections import defaultdict
 from tqdm import tqdm
 import matplotlib.pyplot as plt
@@ -50,9 +50,9 @@ class RealDataClickSimulator:
     Uses actual relevance scores from the dataset.
     """
     
-    def __init__(self, click_probability: float = 0.25, 
-                 position_decay: float = 0.3,
-                 green_bonus: float = 0.1,
+    def __init__(self, click_probability: float = 0.40,  # HIGHER base probability
+                 position_decay: float = 0.5,
+                 green_bonus: float = 0.2,
                  seed: int = 42):
         self.click_prob = click_probability
         self.position_decay = position_decay
@@ -64,32 +64,26 @@ class RealDataClickSimulator:
                        positions: List[int]) -> List[str]:
         """
         Simulate clicks on results at given positions.
-        
-        Args:
-            results: List of result dicts with 'relevance_score' and 'carbon_score'
-            positions: Display positions after re-ranking
-        
-        Returns:
-            List of clicked domains
+        User is MORE LIKELY to click overall, and prefers green.
         """
         clicked = []
         
         for i, (result, pos) in enumerate(zip(results, positions)):
-            # Position bias
+            # Position bias (stronger decay)
             pos_weight = np.exp(-self.position_decay * pos)
             
-            # Relevance weight
+            # Relevance weight (use the real relevance score)
             rel_weight = result.get('relevance_score', 0.5)
             
-            # Green bonus
+            # Green bonus (stronger preference for green sites)
             carbon = result.get('carbon_score', 0.5)
             green_weight = 1.0 + self.green_bonus * carbon
             
-            # Click probability
+            # Higher click probability
             p_click = self.click_prob * pos_weight * rel_weight * green_weight
-            p_click = np.clip(p_click, 0.0, 0.95)
+            p_click = np.clip(p_click, 0.0, 0.90)  # Allow up to 90%
             
-            if self.rng.random() < p_click:
+            if self.rng.rand() < p_click:
                 clicked.append(result.get('domain', ''))
         
         return clicked
@@ -103,12 +97,12 @@ class BaselineReRankers:
     """Collection of baseline strategies for comparison."""
     
     @staticmethod
-    def no_rerank(results):
+    def no_rerank(results: List[Dict]) -> List[int]:
         """Keep original Google ordering."""
         return list(range(len(results)))
     
     @staticmethod
-    def carbon_only(results):
+    def carbon_only(results: List[Dict]) -> List[int]:
         """Rank purely by carbon score (greenest first)."""
         carbons = [r.get('carbon_score', 0.5) for r in results]
         sorted_indices = np.argsort(carbons)[::-1]
@@ -119,7 +113,7 @@ class BaselineReRankers:
         return positions
     
     @staticmethod
-    def static_weighted(results, carbon_weight=0.3):
+    def static_weighted(results: List[Dict], carbon_weight: float = 0.3) -> List[int]:
         """Static weighted combination of relevance and carbon."""
         scores = []
         for r in results:
@@ -180,7 +174,10 @@ class OfflineReplayEvaluator:
         
         print("\nDataset Statistics:")
         for key, val in self.dataset_stats.items():
-            print(f"  {key}: {val:.4f}" if isinstance(val, float) else f"  {key}: {val}")
+            if isinstance(val, float):
+                print(f"  {key}: {val:.4f}")
+            else:
+                print(f"  {key}: {val}")
     
     def _get_results_list(self, query_data: Dict) -> List[Dict]:
         """Convert query data to results list format expected by re-ranker."""
@@ -200,7 +197,7 @@ class OfflineReplayEvaluator:
                        reranker: GreenReRanker,
                        train_queries: List[Dict],
                        test_queries: List[Dict],
-                       reward_fn) -> Dict:
+                       reward_fn: Callable) -> Dict:
         """
         Train bandit on train_queries, evaluate on test_queries.
         """
@@ -260,7 +257,7 @@ class OfflineReplayEvaluator:
         }
     
     def evaluate_baseline(self,
-                         baseline_fn,
+                         baseline_fn: Callable,
                          queries: List[Dict],
                          name: str) -> Dict:
         """Evaluate a baseline re-ranking strategy."""
@@ -275,17 +272,18 @@ class OfflineReplayEvaluator:
             positions = baseline_fn(results)
             
             # Create fake reranked results
+            RerankedResult = type('RerankedResult', (object,), {})
             reranked = []
             for i, pos in enumerate(positions):
                 r = results[i]
-                reranked.append(type('obj', (object,), {
-                    'domain': r['domain'],
-                    'relevance_score': r.get('relevance_score', 0.5),
-                    'carbon_score': r.get('carbon_score', 0.5),
-                    'new_position': pos,
-                    'original_position': i,
-                    'boost_applied': max(0, i - pos),
-                })())
+                obj = RerankedResult()
+                obj.domain = r['domain']
+                obj.relevance_score = r.get('relevance_score', 0.5)
+                obj.carbon_score = r.get('carbon_score', 0.5)
+                obj.new_position = pos
+                obj.original_position = i
+                obj.boost_applied = max(0, i - pos)
+                reranked.append(obj)
             
             # Sort by new position
             reranked.sort(key=lambda x: x.new_position)
@@ -302,7 +300,7 @@ class OfflineReplayEvaluator:
             'all_metrics': all_metrics,
         }
     
-    def run_full_evaluation(self, reward_fn, n_folds: int = 5) -> Dict:
+    def run_full_evaluation(self, reward_fn: Callable, n_folds: int = 5) -> Dict:
         """Run full evaluation with cross-validation."""
         
         print(f"\n{'='*60}")
@@ -391,14 +389,15 @@ class OfflineReplayEvaluator:
                 test_summaries = [r['summary'] for r in fold_results]
             
             # Compute mean and std for each metric
-            metrics = list(test_summaries[0].keys())
-            agg = {}
-            for metric in metrics:
-                values = [s[metric] for s in test_summaries]
-                agg[f'{metric}_mean'] = np.mean(values)
-                agg[f'{metric}_std'] = np.std(values)
-            
-            aggregated[method] = agg
+            if test_summaries:
+                metrics = list(test_summaries[0].keys())
+                agg = {}
+                for metric in metrics:
+                    values = [s[metric] for s in test_summaries]
+                    agg[f'{metric}_mean'] = np.mean(values)
+                    agg[f'{metric}_std'] = np.std(values)
+                
+                aggregated[method] = agg
         
         return aggregated
     

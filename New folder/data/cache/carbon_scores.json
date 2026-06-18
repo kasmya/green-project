@@ -1,0 +1,1557 @@
+{
+  "workspace.google.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781782982.944941
+  },
+  "alliantenergykids.com": {
+    "score": 0.3,
+    "source": "heuristic",
+    "timestamp": 1781782989.6551356
+  },
+  "enel.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781782992.0035233
+  },
+  "reddit.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781782993.9133391
+  },
+  "instagram.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781782996.8998768
+  },
+  "google.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781782998.820028
+  },
+  "learnpython.org": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781783003.493797
+  },
+  "science.nasa.gov": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783005.5997972
+  },
+  "extension.psu.edu": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783010.1674235
+  },
+  "news.climate.columbia.edu": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783014.403295
+  },
+  "noaa.gov": {
+    "score": 0.6,
+    "source": "heuristic",
+    "timestamp": 1781783021.067581
+  },
+  "serenityridgemd.com": {
+    "score": 0.3,
+    "source": "heuristic",
+    "timestamp": 1781783026.773547
+  },
+  "wikipedia.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783027.6733484
+  },
+  "quora.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783029.9098117
+  },
+  "geeksforgeeks.org": {
+    "score": 0.6,
+    "source": "heuristic",
+    "timestamp": 1781783036.5607634
+  },
+  "climate.copernicus.eu": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783038.4917474
+  },
+  "sustainability.wisc.edu": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783041.6716874
+  },
+  "facebook.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783043.523344
+  },
+  "medium.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781783045.432537
+  },
+  "who.int": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783048.5550175
+  },
+  "eia.gov": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783052.4622493
+  },
+  "essd.copernicus.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783058.2472632
+  },
+  "support.google.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781783060.0457187
+  },
+  "en.wikipedia.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783061.9944038
+  },
+  "github.blog": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783067.4171247
+  },
+  "chandra-asri.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783073.8057895
+  },
+  "nyserda.ny.gov": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781783077.3443303
+  },
+  "nsf.gov": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783083.124501
+  },
+  "elon.edu": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783088.689329
+  },
+  "conservation.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783093.8409414
+  },
+  "play.google.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781783095.7228472
+  },
+  "history.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783098.614578
+  },
+  "python.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783101.3442092
+  },
+  "wmo.int": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783106.2455542
+  },
+  "ren21.net": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781783108.2121687
+  },
+  "energy.sais.jhu.edu": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781783112.101331
+  },
+  "internetsociety.org": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781783114.0819046
+  },
+  "apps.apple.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783116.1863708
+  },
+  "footprintnetwork.org": {
+    "score": 0.6,
+    "source": "heuristic",
+    "timestamp": 1781783122.941969
+  },
+  "commons.wikimedia.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783123.9124782
+  },
+  "myaccount.google.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781783125.8672311
+  },
+  "youtube.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781783127.815199
+  },
+  "accounts.google.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781783129.6742966
+  },
+  "brightlysoftware.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783135.043624
+  },
+  "github.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783137.095847
+  },
+  "groups.csail.mit.edu": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783141.9351003
+  },
+  "un.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783147.0349603
+  },
+  "scienceandmediamuseum.org.uk": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781783149.0100307
+  },
+  "climate.mit.edu": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783151.8069193
+  },
+  "climate.gov": {
+    "score": 0.6,
+    "source": "heuristic",
+    "timestamp": 1781783158.4583604
+  },
+  "wikimediafoundation.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783161.77542
+  },
+  "constellation.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781783167.3941875
+  },
+  "rivery.io": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781783169.3704524
+  },
+  "erc.lehigh.edu": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785568.76733
+  },
+  "franksummers.ceterainvestors.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785574.3576908
+  },
+  "taxpolicycenter.org": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785576.6398842
+  },
+  "climatepartner.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785580.3094115
+  },
+  "carbonbrief.org": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785583.0088456
+  },
+  "recycleannarbor.org": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785586.8782406
+  },
+  "energyharbor.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785594.2650263
+  },
+  "evgo.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785598.3196816
+  },
+  "carsdirect.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785600.8864965
+  },
+  "costcoauto.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785605.3163846
+  },
+  "gearpatrol.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785607.8816354
+  },
+  "greenchef.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785614.0481737
+  },
+  "fordofkendall.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785618.139313
+  },
+  "kayak.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785621.8585625
+  },
+  "wired.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785626.5417428
+  },
+  "buckmans.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785629.1333594
+  },
+  "bioscore.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785632.4277377
+  },
+  "driveclean.ca.gov": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785635.9513724
+  },
+  "plana.earth": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785637.939362
+  },
+  "rusticrootsdelivery.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785642.7378967
+  },
+  "earth.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785647.532475
+  },
+  "massfarmersmarkets.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785651.7305377
+  },
+  "notebookcheck.net": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785653.6493986
+  },
+  "apple.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785655.8994136
+  },
+  "law.stanford.edu": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785657.8477306
+  },
+  "afdc.energy.gov": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785663.5261989
+  },
+  "bookoutlet.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785665.4443226
+  },
+  "grist.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785670.5403004
+  },
+  "lynalden.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785672.7901871
+  },
+  "greenhost.net": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785675.2994115
+  },
+  "icsc.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785680.931063
+  },
+  "abebooks.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785686.4444275
+  },
+  "ghgprotocol.org": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785689.246819
+  },
+  "climatecentral.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785694.4299984
+  },
+  "canada.ca": {
+    "score": 0.3,
+    "source": "heuristic",
+    "timestamp": 1781785701.6603315
+  },
+  "recyclingtoday.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785705.6642013
+  },
+  "azure.microsoft.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785708.32695
+  },
+  "des.sc.gov": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785711.237899
+  },
+  "maloufgmc.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785714.9912038
+  },
+  "energy.gov": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785720.428857
+  },
+  "farmfreshtoyou.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785724.6591184
+  },
+  "macfilos.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785730.2202594
+  },
+  "thriftbooks.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785734.3370361
+  },
+  "explore.changeclimate.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785738.5869935
+  },
+  "ecoonline.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785742.746692
+  },
+  "ricksteves.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785745.511446
+  },
+  "environment.yale.edu": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785750.0537317
+  },
+  "compareandrecycle.co.uk": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785753.539799
+  },
+  "nationalgridus.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785756.1056402
+  },
+  "evgateway.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785758.7545784
+  },
+  "visitpittsburgh.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785765.63665
+  },
+  "climateaction100.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785769.6737034
+  },
+  "pre-sustainability.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785772.262991
+  },
+  "recyclemoreoutagamie.org": {
+    "score": 0.6,
+    "source": "heuristic",
+    "timestamp": 1781785779.614527
+  },
+  "nature.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785784.3029382
+  },
+  "vogue.co.uk": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785788.6997037
+  },
+  "mashable.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785791.3503273
+  },
+  "roadrunnersports.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785793.9352288
+  },
+  "theccc.org.uk": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785796.5342638
+  },
+  "fit2run.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785799.107121
+  },
+  "toadandco.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785801.6707816
+  },
+  "moval.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785808.2450864
+  },
+  "nerdwallet.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785812.9984767
+  },
+  "brooksrunning.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785818.4449234
+  },
+  "nrdc.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785823.2982843
+  },
+  "finance.yahoo.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785825.9195037
+  },
+  "impakter.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785831.3141193
+  },
+  "intentionalendowments.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785838.1031926
+  },
+  "hostpapa.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785840.7017767
+  },
+  "wbcsd.org": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785843.1884086
+  },
+  "fool.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785845.8009965
+  },
+  "agriculture.virginiabeach.gov": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785851.5951777
+  },
+  "sciencedirect.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785854.5889673
+  },
+  "pcmag.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785857.390128
+  },
+  "wildlyorganic.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785859.9983714
+  },
+  "momondo.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785863.5892568
+  },
+  "insideclimatenews.org": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785866.2201493
+  },
+  "mapleleaffoods.com": {
+    "score": 0.3,
+    "source": "heuristic",
+    "timestamp": 1781785873.6679757
+  },
+  "consumerreports.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785877.8737798
+  },
+  "icheme.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785882.3902805
+  },
+  "rei.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785886.7247868
+  },
+  "organicoren.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785891.6621249
+  },
+  "realthread.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785894.4595597
+  },
+  "carbonneutral.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785898.2682161
+  },
+  "sandiego.org": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785900.9987164
+  },
+  "cbd.int": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785905.045628
+  },
+  "forex.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785907.9180236
+  },
+  "freshdirect.com": {
+    "score": 0.3,
+    "source": "heuristic",
+    "timestamp": 1781785914.7370667
+  },
+  "agriculture.ny.gov": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785916.1600063
+  },
+  "omnidian.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785919.6461754
+  },
+  "climate.ec.europa.eu": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785921.7397888
+  },
+  "cars.usnews.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785926.9779928
+  },
+  "rivannasolidwaste.org": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785932.6854033
+  },
+  "bbc.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785934.780627
+  },
+  "carbonclick.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785938.3206544
+  },
+  "theguardian.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785941.9775648
+  },
+  "ncelenviro.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785946.358961
+  },
+  "opkansas.gov": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785950.4027603
+  },
+  "shotsandsprockets.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785955.2889018
+  },
+  "link.springer.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785958.7249286
+  },
+  "brewersorganics.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785962.942471
+  },
+  "thegearpage.net": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785965.3705025
+  },
+  "greenpeace.org": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785967.892594
+  },
+  "fleetfeet.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785973.6665065
+  },
+  "ovhcloud.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781785976.2256796
+  },
+  "topgear.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785980.457639
+  },
+  "gao.gov": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785987.325055
+  },
+  "trinityconsultants.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781785992.632155
+  },
+  "bikeworks.org": {
+    "score": 0.6,
+    "source": "heuristic",
+    "timestamp": 1781786000.051422
+  },
+  "forbes.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786002.8733099
+  },
+  "minimum.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786007.2439756
+  },
+  "poweroutage.us": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786010.0272617
+  },
+  "energy.ca.gov": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786016.3399997
+  },
+  "thegreenwebfoundation.org": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786019.2438025
+  },
+  "cascade.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786023.2174518
+  },
+  "plugshare.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786025.987376
+  },
+  "thespruceeats.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786028.7854843
+  },
+  "instacart.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786034.2903354
+  },
+  "zappos.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786040.4228973
+  },
+  "powells.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786043.0107877
+  },
+  "business.amazon.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786046.8893204
+  },
+  "archive.epa.gov": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786052.2768905
+  },
+  "ilsr.org": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786054.9561312
+  },
+  "nationalgrid.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786057.5969503
+  },
+  "climatechangenews.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786060.132832
+  },
+  "deliveryrank.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786062.7590103
+  },
+  "peteandgerrys.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786065.5297747
+  },
+  "flights.virginatlantic.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786068.0990496
+  },
+  "npi.org": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786073.4828227
+  },
+  "energysage.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786077.9611175
+  },
+  "goodweatherinseattle.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786083.6910312
+  },
+  "privacytools.io": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786086.342877
+  },
+  "paperguide.ai": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786090.593576
+  },
+  "pcworld.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786093.2399704
+  },
+  "robeco.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786099.3026223
+  },
+  "delta.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786102.8590775
+  },
+  "thesustainableagency.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786105.41209
+  },
+  "taxfoundation.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786110.6963093
+  },
+  "sustainability.aboutamazon.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786114.4544668
+  },
+  "sustain.ucla.edu": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786120.107665
+  },
+  "recology.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786122.7414503
+  },
+  "mitsloan.mit.edu": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786126.282196
+  },
+  "sustainabilityexchange.amazon.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786129.8907897
+  },
+  "morningstar.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786133.358441
+  },
+  "mobiletracker.net": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786137.5665128
+  },
+  "huntsvillescoop.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786141.9813614
+  },
+  "chargehub.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786148.0196211
+  },
+  "ischoolonline.berkeley.edu": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786153.3116374
+  },
+  "mdpi.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786156.7350287
+  },
+  "instituteofsustainabilitystudies.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786160.8846564
+  },
+  "nytimes.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786165.5776756
+  },
+  "sustainability.santabarbaraca.gov": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786168.9349327
+  },
+  "carbonaccountingfinancials.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786171.8312325
+  },
+  "investing.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786174.4534113
+  },
+  "wifarmersmarkets.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786180.63422
+  },
+  "davidsuzuki.org": {
+    "score": 0.6,
+    "source": "heuristic",
+    "timestamp": 1781786188.1063323
+  },
+  "markey.senate.gov": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786191.20288
+  },
+  "epa.gov": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786194.3894005
+  },
+  "bookscouter.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786197.1475923
+  },
+  "laptopmag.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786202.653038
+  },
+  "greenamerica.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786206.5485249
+  },
+  "ieeexplore.ieee.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786210.4771197
+  },
+  "01net.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786213.2484336
+  },
+  "runningwarehouse.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786220.0928943
+  },
+  "brookings.edu": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786225.4328985
+  },
+  "goodonyou.eco": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786228.2125409
+  },
+  "mendbicycles.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786235.431017
+  },
+  "carbonpricingdashboard.worldbank.org": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786238.5572321
+  },
+  "bestbuy.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786244.9812367
+  },
+  "money.usnews.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786251.0379498
+  },
+  "reuters.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786257.812949
+  },
+  "solesports.runfreeproject.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786262.133478
+  },
+  "thegoodtrade.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786266.1336226
+  },
+  "sunrun.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786271.09496
+  },
+  "forum.gon.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786274.1042767
+  },
+  "tesla.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786279.488205
+  },
+  "eco-stylist.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786285.0943847
+  },
+  "greengeeks.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786287.6699293
+  },
+  "rtings.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786291.694581
+  },
+  "evo.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786293.534093
+  },
+  "usgs.gov": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786299.643429
+  },
+  "solarchoice.net.au": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786305.078246
+  },
+  "renewable-energy-industry.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786310.8598123
+  },
+  "greenncap.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786313.492703
+  },
+  "yelp.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786317.6037252
+  },
+  "detsi.qld.gov.au": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786321.3532212
+  },
+  "homedepot.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786324.081346
+  },
+  "bookfinder.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786328.8605714
+  },
+  "inmotionhosting.com": {
+    "score": 0.3,
+    "source": "heuristic",
+    "timestamp": 1781786336.214141
+  },
+  "carbontax.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786342.0692549
+  },
+  "cyberinsider.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786347.3212912
+  },
+  "maxeon.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786353.01776
+  },
+  "bookstores.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786359.20687
+  },
+  "sustainability.psu.edu": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786365.7952251
+  },
+  "wm.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786368.5462852
+  },
+  "androidcentral.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786373.8872285
+  },
+  "green-forum.ec.europa.eu": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786376.8363864
+  },
+  "hungryharvest.net": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786381.7180007
+  },
+  "sierraclub.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786384.9204767
+  },
+  "responsibilityreports.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786389.7250562
+  },
+  "audidevon.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786393.8807118
+  },
+  "sumissura.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786397.091254
+  },
+  "economicsobservatory.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786399.7868025
+  },
+  "blinkcharging.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786405.4837182
+  },
+  "naturalgrocers.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786409.1830277
+  },
+  "apiday.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786413.3924992
+  },
+  "caranddriver.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786417.2120266
+  },
+  "pmc.ncbi.nlm.nih.gov": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786419.922538
+  },
+  "lectra.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786424.5579326
+  },
+  "ecochain.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786427.346418
+  },
+  "podenergy.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786431.1732614
+  },
+  "familyhandyman.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786433.973113
+  },
+  "dchparamushonda.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786440.0972922
+  },
+  "farmtoforkcolorado.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786447.1135385
+  },
+  "gazellesports.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786449.7426498
+  },
+  "cnet.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786455.173125
+  },
+  "eui.eu": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786461.1648397
+  },
+  "coursera.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786465.6139584
+  },
+  "rit.edu": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786472.6178193
+  },
+  "sievo.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786479.58802
+  },
+  "amazon.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786484.1198773
+  },
+  "wholefoodsmarket.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786487.4534605
+  },
+  "techradar.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786493.1186643
+  },
+  "driveandreview.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786498.5738237
+  },
+  "developers.google.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786501.2795727
+  },
+  "planetaid.org": {
+    "score": 0.6,
+    "source": "heuristic",
+    "timestamp": 1781786508.8853614
+  },
+  "thisrockesg.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786515.3668306
+  },
+  "environment.ec.europa.eu": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786519.0429325
+  },
+  "wri.org": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786521.8395295
+  },
+  "aboutamazon.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786527.0631866
+  },
+  "alibris.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786529.7322307
+  },
+  "skyscanner.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786534.2919548
+  },
+  "environment.upenn.edu": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786537.3984728
+  },
+  "nashvillefarmersmarket.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786543.2869647
+  },
+  "ibm.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786546.3729217
+  },
+  "nashville.gov": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786549.0554903
+  },
+  "ocasiocortez.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786551.7727652
+  },
+  "novisto.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786557.0102654
+  },
+  "electrifyamerica.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786559.7242076
+  },
+  "consumeraffairs.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786566.569529
+  },
+  "security.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786572.6498835
+  },
+  "zerotracker.net": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786576.6426291
+  },
+  "victorychevymilan.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786580.4564655
+  },
+  "edmunds.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786585.5679722
+  },
+  "unfccc.int": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786590.9410694
+  },
+  "solarreviews.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786593.718197
+  },
+  "nationalgeographic.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786598.9944172
+  },
+  "betterworldbooks.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786601.6653297
+  },
+  "spm.ei.columbia.edu": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786607.2345736
+  },
+  "spartanburgcounty.gov": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786613.251109
+  },
+  "matethelabel.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786616.0451212
+  },
+  "wafarmersmarkets.org": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786623.3979342
+  },
+  "awm.sbcounty.gov": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786628.9340196
+  },
+  "traverssmith.com": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786631.534618
+  },
+  "woodwellclimate.org": {
+    "score": 1.0,
+    "source": "api",
+    "timestamp": 1781786634.1050498
+  },
+  "epa.ie": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786641.1989372
+  },
+  "energypolicy.columbia.edu": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786645.1108046
+  },
+  "nature.com": {
+    "score": 0.0,
+    "source": "api",
+    "timestamp": 1781786648.5223906
+  }
+}

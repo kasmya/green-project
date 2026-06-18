@@ -497,11 +497,44 @@ class SERPDatasetCollector:
                     self.carbon_labeler._fallback_heuristic(result['domain'])
                 )
         
-        # Step 4: Compute relevance scores (position-based proxy)
+        # Step 4: Compute relevance scores (multi-signal proxy)
         for query_data in dataset['queries']:
+            query = query_data['query'].lower()
+            query_words = set(query.split())
+            
             for result in query_data['results']:
-                # Simple relevance proxy: inverse of position
-                result['relevance_score'] = 1.0 - (result['position'] / 10.0)
+                title = result.get('title', '').lower()
+                snippet = result.get('snippet', '').lower()
+                domain = result.get('domain', '').lower()
+                
+                # Signal 1: Position (Google's own relevance signal)
+                position_score = 1.0 - (result['position'] / 10.0)
+                
+                # Signal 2: Title overlap with query
+                title_words = set(title.split())
+                title_overlap = len(query_words & title_words) / max(len(query_words), 1)
+                
+                # Signal 3: Snippet overlap
+                snippet_words = set(snippet.split())
+                snippet_overlap = len(query_words & snippet_words) / max(len(query_words), 1)
+                
+                # Signal 4: Domain contains query terms
+                domain_match = 0.0
+                for word in query_words:
+                    if word in domain and len(word) > 3:
+                        domain_match = 0.5
+                        break
+                
+                # Combined relevance (weighted)
+                relevance = (
+                    0.30 * position_score +
+                    0.35 * title_overlap +
+                    0.25 * snippet_overlap +
+                    0.10 * domain_match
+                )
+                
+                # Normalize to 0-1
+                result['relevance_score'] = round(max(0.1, min(1.0, relevance)), 4)
         
         # Step 5: Save dataset
         os.makedirs(os.path.dirname(self.config.output_file), exist_ok=True)
@@ -544,7 +577,7 @@ def main():
                        help='File with one query per line')
     parser.add_argument('--output', type=str, default='data/collected/serp_dataset.json',
                        help='Output JSON file')
-    parser.add_argument('--num-queries', type=int, default=50,
+    parser.add_argument('--num-queries', type=int, default=100,
                        help='Number of queries to collect (uses first N from file)')
     
     args = parser.parse_args()
