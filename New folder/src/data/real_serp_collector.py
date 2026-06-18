@@ -1,4 +1,5 @@
 """
+this file is replaced by collector.py
 Real SERP Data Collector
 ========================
 Collects real Google search results and labels domains with Green Web Foundation API.
